@@ -1,7 +1,7 @@
 def isValid(s: str) -> bool:
     # Stack to keep track of opening brackets
     stack = []
-    # Mapping of closing to opening brackets
+    
     bracket_map = {')': '(', '}': '{', ']': '['}
     
   
