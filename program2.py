@@ -15,7 +15,7 @@ class Solution:
         n = len(s)
         
         for i in range(n):
-            # If this is not the last character and the next character is greater than the current one
+           
             if i < n - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
                 total -= roman_map[s[i]]  # Subtract the current value
             else:
