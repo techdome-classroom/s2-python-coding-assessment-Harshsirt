@@ -1,5 +1,5 @@
 class Solution: 
-def isValid(s: str) -> bool:
+     def isValid(s: str) -> bool:
  
     stack = []
     
