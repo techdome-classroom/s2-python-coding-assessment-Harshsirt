@@ -4,7 +4,7 @@ def isValid(s: str) -> bool:
     # Mapping of closing to opening brackets
     bracket_map = {')': '(', '}': '{', ']': '['}
     
-    # Traverse the string
+  
     for char in s:
         if char in bracket_map:
            
