@@ -13,7 +13,7 @@ class Solution:
         total = 0
         n = len(s)
         
-        for i in range(n):  
+        for i in range(n):
             if i < n - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
                 total -= roman_map[s[i]]
             else:
